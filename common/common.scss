@@ -1,0 +1,26 @@
+.unix-epoch-time-banner {
+  background-color: $background_color;
+  color: #fff;
+  padding: 8px 15px;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  
+  .unix-time-label {
+    color: $label_color;
+    font-weight: normal;
+  }
+  
+  .unix-time-value {
+    color: $text_color;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+}

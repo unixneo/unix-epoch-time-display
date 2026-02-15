@@ -1,0 +1,8 @@
+en:
+  theme_metadata:
+    description: "Displays the current Unix epoch time in seconds below the site header navigation bar."
+    settings:
+      background_color: "Background color of the Unix time banner"
+      text_color: "Color of the Unix timestamp digits"
+      label_color: "Color of the 'unix time:' label"
+      show_label: "Show the 'unix time:' label before the timestamp"

@@ -1,0 +1,12 @@
+{
+  "name": "Unix Epoch Time Display",
+  "about_url": null,
+  "license_url": null,
+  "component": true,
+  "theme_version": "1.0.0",
+  "minimum_discourse_version": "2.7.0",
+  "authors": "Claude",
+  "modifiers": {
+    "serialize_topic_excerpts": false
+  }
+}

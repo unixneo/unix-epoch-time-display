@@ -1,0 +1,19 @@
+background_color:
+  type: string
+  default: "#333333"
+  description: "Background color of the Unix time banner"
+
+text_color:
+  type: string
+  default: "#4fd1c5"
+  description: "Color of the Unix timestamp digits"
+
+label_color:
+  type: string
+  default: "#aaaaaa"
+  description: "Color of the 'unix time:' label"
+
+show_label:
+  type: bool
+  default: true
+  description: "Show the 'unix time:' label before the timestamp"
