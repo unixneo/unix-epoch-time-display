@@ -5,7 +5,7 @@ background_color:
 
 text_color:
   type: string
-  default: "#4fd1c5"
+  default: "#08c"
   description: "Color of the Unix timestamp digits"
 
 label_color:
