@@ -11,15 +11,43 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
+  flex-wrap: nowrap;
   
   .unix-time-label {
     color: $label_color;
     font-weight: normal;
+    white-space: nowrap;
   }
   
   .unix-time-value {
     color: $text_color;
     font-weight: bold;
     letter-spacing: 2px;
+    white-space: nowrap;
+  }
+}
+
+// Mobile responsive scaling
+@media screen and (max-width: 768px) {
+  .unix-epoch-time-banner {
+    font-size: 24px;
+    padding: 16px 10px;
+    gap: 10px;
+    
+    .unix-time-value {
+      letter-spacing: 1px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .unix-epoch-time-banner {
+    font-size: 18px;
+    padding: 12px 8px;
+    gap: 8px;
+    
+    .unix-time-value {
+      letter-spacing: 0.5px;
+    }
   }
 }
