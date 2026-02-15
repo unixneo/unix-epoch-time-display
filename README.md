@@ -1,6 +1,6 @@
 # Unix Epoch Time Display
-
-A Discourse theme component that displays the current Unix epoch time in seconds directly below the site header navigation bar.
+ 
+A Discourse theme component written by Anthropic Claude that displays the current Unix epoch time in seconds directly below the site header navigation bar.
 
 ## Features
 
