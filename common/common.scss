@@ -1,5 +1,5 @@
 .unix-epoch-time-banner {
-  background-color: $background_color;
+  background-color: transparent;
   color: #fff;
   padding: 24px 15px;
   text-align: center;
@@ -11,7 +11,6 @@
   justify-content: center;
   align-items: center;
   gap: 16px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   
   .unix-time-label {
     color: $label_color;

@@ -1,6 +1,6 @@
 background_color:
   type: string
-  default: "#333333"
+  default: "transparent"
   description: "Background color of the Unix time banner"
 
 text_color:
