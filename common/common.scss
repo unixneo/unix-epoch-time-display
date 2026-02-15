@@ -4,7 +4,7 @@
   padding: 24px 15px;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
-  font-size: 42px;
+  font-size: $font_size;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -30,7 +30,7 @@
 // Mobile responsive scaling
 @media screen and (max-width: 768px) {
   .unix-epoch-time-banner {
-    font-size: 24px;
+    font-size: calc(#{$font_size} * 0.57);
     padding: 16px 10px;
     gap: 10px;
     
@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 480px) {
   .unix-epoch-time-banner {
-    font-size: 18px;
+    font-size: calc(#{$font_size} * 0.43);
     padding: 12px 8px;
     gap: 8px;
     

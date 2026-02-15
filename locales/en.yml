@@ -5,4 +5,5 @@ en:
       background_color: "Background color of the Unix time banner"
       text_color: "Color of the Unix timestamp digits"
       label_color: "Color of the 'unix time:' label"
+      font_size: "Font size of the Unix time display (e.g., 42px, 2.5rem)"
       show_label: "Show the 'unix time:' label before the timestamp"

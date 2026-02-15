@@ -13,6 +13,11 @@ label_color:
   default: "#aaaaaa"
   description: "Color of the 'unix time:' label"
 
+font_size:
+  type: string
+  default: "42px"
+  description: "Font size of the Unix time display (e.g., 42px, 2.5rem)"
+
 show_label:
   type: bool
   default: true
