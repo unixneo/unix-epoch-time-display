@@ -5,7 +5,9 @@ A Discourse theme component that displays the current Unix epoch time in seconds
 ## Features
 
 - **Real-time updates**: The Unix timestamp updates every second
-- **Customizable colors**: Configure background, text, and label colors via theme settings
+- **Large, prominent display**: 42px monospace font for easy visibility
+- **Transparent background**: Blends seamlessly with your site's header
+- **Customizable colors**: Configure text and label colors via theme settings
 - **Optional label**: Show or hide the "unix time:" label prefix
 - **Responsive**: Works on both desktop and mobile views
 
@@ -30,8 +32,8 @@ A Discourse theme component that displays the current Unix epoch time in seconds
 
 | Setting | Type | Default | Description |
 |---------|------|---------|-------------|
-| `background_color` | Color | `#333333` | Background color of the Unix time banner |
-| `text_color` | Color | `#4fd1c5` | Color of the Unix timestamp digits |
+| `background_color` | Color | `transparent` | Background color of the Unix time banner |
+| `text_color` | Color | `#08c` | Color of the Unix timestamp digits |
 | `label_color` | Color | `#aaaaaa` | Color of the "unix time:" label |
 | `show_label` | Boolean | `true` | Show/hide the "unix time:" label |
 
