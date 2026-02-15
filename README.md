@@ -1,6 +1,6 @@
 # Unix Epoch Time Display
- 
-A Discourse theme component written by Anthropic Claude that displays the current Unix epoch time in seconds directly below the site header navigation bar.
+
+A Discourse theme component that displays the current Unix epoch time in seconds directly below the site header navigation bar.
 
 ## Features
 
@@ -13,20 +13,11 @@ A Discourse theme component written by Anthropic Claude that displays the curren
 
 ## Installation
 
-### Via GitHub Repository
-
 1. Go to your Discourse admin panel
 2. Navigate to **Admin** → **Customize** → **Themes**
 3. Click **Install** → **From a git repository**
-4. Enter the repository URL
+4. Enter: `https://github.com/unixneo/unix-epoch-time-display`
 5. Click **Install**
-
-### Manual Installation
-
-1. Clone or download this repository
-2. Go to **Admin** → **Customize** → **Themes**
-3. Click **Install** → **From your device**
-4. Upload the theme component folder as a `.tar.gz` archive
 
 ## Settings
 
