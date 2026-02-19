@@ -31,7 +31,7 @@
 @media screen and (max-width: 768px) {
   .unix-epoch-time-banner {
     font-size: calc(#{$font_size} * 0.57);
-    padding: 16px 10px;
+    padding: 8px 10px;
     gap: 10px;
     
     .unix-time-value {
@@ -43,7 +43,7 @@
 @media screen and (max-width: 480px) {
   .unix-epoch-time-banner {
     font-size: calc(#{$font_size} * 0.43);
-    padding: 12px 8px;
+    padding: 4px 8px;
     gap: 8px;
     
     .unix-time-value {
